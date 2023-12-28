@@ -19,8 +19,8 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SEVER_IP }}
-        username: ${{ secrets.SERVER_USERNAME }}
-        key: ${{ secrets.SERVER_SSH_KEY }}
+        username: ${{ secrets.SEVER_USERNAME }}
+        key: ${{ secrets.SEVER_SSH_KEY }}
         port: 22
         script: |
           cd /var/www/quy_projectmd2_react/PROJECT_MODULE2_CLIENT
