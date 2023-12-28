@@ -52,8 +52,8 @@ const Carousel = () => {
   
         {isHovered && (
           <div className="navigation">
-            <button type="button" class="btn btn-outline-secondary" onClick={goToPrevSlide}><ion-icon name="chevron-back-outline"></ion-icon></button>
-            <button type="button" class="btn btn-outline-secondary" onClick={goToNextSlide}><ion-icon name="chevron-forward-outline"></ion-icon></button>
+            <button type="button" className="btn btn-outline-secondary" onClick={goToPrevSlide}><ion-icon name="chevron-back-outline"></ion-icon></button>
+            <button type="button" className="btn btn-outline-secondary" onClick={goToNextSlide}><ion-icon name="chevron-forward-outline"></ion-icon></button>
           </div>
         )}
   

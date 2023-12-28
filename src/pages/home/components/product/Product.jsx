@@ -12,7 +12,7 @@ export default function Product({ productStore }) {
                     <div className='product_info'>
                         <div className="top">
                             <h5>ĐIỆN THOẠI</h5>
-                            <h5>Xem thêm >></h5>
+                            <h5>Xem thêm </h5>
                         </div>
                         <div className="bottom">
                             <Carousel cols={5} rows={1} gap={20} loop>
@@ -31,7 +31,7 @@ export default function Product({ productStore }) {
                                                 onClick={()=>{
                                                     navigate(`/product-info/${i.id}`)
                                                 }}
-                                                class="my-button">
+                                                className="my-button">
                                                     Show more!
                                                 </button>
                                             </div>
@@ -57,7 +57,7 @@ export default function Product({ productStore }) {
                     <div className='product_info'>
                         <div className="top">
                             <h5>LAPTOP</h5>
-                            <h5>Xem thêm >></h5>
+                            <h5>Xem thêm </h5>
                         </div>
                         <div className="bottom">
                         <Carousel cols={5} rows={1} gap={20} loop>
@@ -76,7 +76,7 @@ export default function Product({ productStore }) {
                                                 onClick={() => {
                                                     navigate(`product-info/${i.id}`)
                                                 }}
-                                                class="my-button">
+                                                className="my-button">
                                                     Show more!
                                                 </button>
                                             </div>
@@ -102,7 +102,7 @@ export default function Product({ productStore }) {
                     <div className='product_info'>
                         <div className="top">
                             <h5>PC</h5>
-                            <h5>Xem thêm >></h5>
+                            <h5>Xem thêm </h5>
                         </div>
                         <div className="bottom">
                         <Carousel cols={5} rows={1} gap={20} loop>
@@ -117,7 +117,7 @@ export default function Product({ productStore }) {
                                                 <p>Phone</p>
                                                 <h6>{i.name}</h6>
                                                 <h5>{convertToVND(i.price)}</h5>
-                                                <button class="my-button"
+                                                <button className="my-button"
                                                 onClick={()=>{
                                                     navigate(`/product-info/${i.id}`)
                                                 }}>
@@ -136,7 +136,7 @@ export default function Product({ productStore }) {
                     <div className='product_info'>
                         <div className="top">
                             <h5>THIẾT BỊ ÂM THANH</h5>
-                            <h5>Xem thêm >></h5>
+                            <h5>Xem thêm </h5>
                         </div>
                         <div className="bottom">
                         <Carousel cols={5} rows={1} gap={20} loop>
@@ -151,7 +151,7 @@ export default function Product({ productStore }) {
                                                 <p>Phone</p>
                                                 <h6>{i.name}</h6>
                                                 <h5>{convertToVND(i.price)}</h5>
-                                                <button class="my-button"
+                                                <button className="my-button"
                                                 onClick={()=>{
                                                     navigate(`/product-info/${i.id}`)
                                                 }}>
@@ -180,7 +180,7 @@ export default function Product({ productStore }) {
                     <div className='product_info'>
                         <div className="top">
                             <h5>PHỤ KIỆN</h5>
-                            <h5>Xem thêm >></h5>
+                            <h5>Xem thêm </h5>
                         </div>
                         <div className="bottom">
                         <Carousel cols={5} rows={1} gap={20} loop>
@@ -195,7 +195,7 @@ export default function Product({ productStore }) {
                                                 <p>Phone</p>
                                                 <h6>{i.name}</h6>
                                                 <h5>{convertToVND(i.price)}</h5>
-                                                <button class="my-button"
+                                                <button className="my-button"
                                                 onClick={()=>{
                                                     navigate(`/product-info/${i.id}`)
                                                 }}>
