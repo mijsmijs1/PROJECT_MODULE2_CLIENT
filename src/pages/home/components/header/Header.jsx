@@ -25,7 +25,7 @@ export default function Header() {
               [
                 {
                   icon: "ticket-outline",
-                  text: "khuyến mại"
+                  text: "khuyến mại tốt"
                 },
                 {
                   icon: "location-outline",
